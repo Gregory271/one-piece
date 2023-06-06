@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family:"ONE PIECE";
+	background-color:rgb(213, 54, 51);
+}
+
+#merry{
+	object-fit: contain; /* Do not scale the image */
+  	object-position: center; /* Center the image within the element */
+	width: 100%;
+	height: auto;
+	max-height: 300px;
+
+}

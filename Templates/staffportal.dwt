@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Your Page Title</title>
+    <!-- TemplateEndEditable -->
+    <link rel="stylesheet" type="text/css" href="file:///Macintosh HD/Users/teacher/Documents/test-site/style.css">
+        <style type="text/css">
+
+        
+@media (max-width: 640px){
+	.infinity{
+		display:none;
+	}
+}
+        </style>
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    </head>
+
+    <body>
+		
+		
+		
+			<h1 class="title">Wolves</h1>
+			
+		
+        
+        
+        <div id="nav-bar">
+            <ul>
+                <div class = "nav-item"><li><a href="file:///Macintosh HD/Users/teacher/Documents/test-site/index.html">Home</a></li></div>
+                <div class = "nav-item"><li><a href="file:///Macintosh HD/Users/teacher/Documents/test-site/index.html">News</a></li></div>
+                <div class = "nav-item"><li><a href="file:///Macintosh HD/Users/teacher/Documents/test-site/index.html">Contact</a></li></div>
+                <div class = "nav-item"><li><a href="file:///Macintosh HD/Users/teacher/Documents/test-site/index.html">About</a></li></div>
+            </ul>
+        </div>
+        
+        <h1>HEADING</h1>
+		
+		<h2>Monthly Specials</h2>
+				
+					<ol>
+						<li>In Studio</li>
+						<ul>
+							<li>Family</li>
+				
+							<li>Individual</li>
+				
+						</ul>
+					</ol>
+		
+		<h1>What can we do for you?</h1>
+		
+		
+		<div class="content">
+			
+		  <!-- TemplateBeginEditable name="Main" -->
+			<h2>Healthy meals?</h2>
+	    <!-- TemplateEndEditable --> </div>
+		
+		
+	<div id = "page">
+		  <header>Content for New header Tag Goes Here</header>
+			
+		
+			
+			<main>
+				
+			<div class="col-6">
+			
+				
+				
+			</main>
+			
+			<aside>
+			</aside>
+			
+			<footer>
+			</footer>
+		</div>
+        
+		<script>
+		
+		/* Add code below*/
+			/* 
+   * Dependencies * 
+   this function requires the following snippets:
+   JavaScript/Randomizers/randomNumber
+   JavaScript/conversions/base_conversion/decToHex 
+*/
+function randomBgColor() {
+  var r,g,b;
+  r = decToHex(randomNumber(256)-1);
+  g = decToHex(randomNumber(256)-1);
+  b = decToHex(randomNumber(256)-1);
+  document.body.style.backgroundColor = "#" + r + g + b;
+}
+			
+
+		</script>
+        
+</body>
+</html>
